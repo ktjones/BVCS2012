@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Events.master.cs" Inherits="EventRegistration.Events" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+        <h1>Event Registration </h1>
+    </div>
+    <div class="navigation">
+        Menu will go here
+    </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="bottom">
+        Copyright (c) 2012 Wiley Publishing
+    </div>
+    </form>
+</body>
+</html>

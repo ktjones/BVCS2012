@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch10CardLib", "Ch10CardLib\Ch10CardLib.csproj", "{5B1702E7-432D-4B52-B0F5-637F55A11525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch10CardClient", "Ch10CardClient\Ch10CardClient.csproj", "{B461FEA7-8DF3-48BE-9505-7CA77B40BCDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B1702E7-432D-4B52-B0F5-637F55A11525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1702E7-432D-4B52-B0F5-637F55A11525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1702E7-432D-4B52-B0F5-637F55A11525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1702E7-432D-4B52-B0F5-637F55A11525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B461FEA7-8DF3-48BE-9505-7CA77B40BCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B461FEA7-8DF3-48BE-9505-7CA77B40BCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B461FEA7-8DF3-48BE-9505-7CA77B40BCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B461FEA7-8DF3-48BE-9505-7CA77B40BCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

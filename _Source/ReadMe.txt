@@ -1,0 +1,12 @@
+ReadMe.txt file for "Beginning Microsoft Visual C# 2012" (ISBN: 9781118314418)
+
+By Karli Watson, Jacob Vibe Hammer, Jon D. Reid, Morgan Skinner, Daniel Kemper, Christian Nagel
+
+This download contains zip files for each chapter in the book except for Chapters 1 and 2, which are introductory chapters and have no code. Where necessary, the zip files contain additional ReadMe.txt files with additional, chapter-specific instructions.
+
+You can unzip the code wherever you want, but the recommended place to put code (as referenced in the book) is in C:\BegVCSharp\ChapterXX, where XX is the chapter number.
+
+The code and descriptions of C# and the .NET Framework in this book apply to C# 5 and .NET 4.5. You don’t need anything other than the Framework to understand this aspect of the book, but many of the examples require a development tool. This book uses Visual Studio 2012 as its primary development tool, although if you don’t have this then you will be able to use the free Visual Studio Express 2012 line of products. For the first part of the book, Visual Studio Express 2012 for Windows Desktop will enable you to create desktop and console applications. For later chapters, you will also require Visual Studio Express 2012 for Windows 8 in order to create Windows Store applications, Visual Studio Express 2012 for Web to create web applications, and SQL Server Express 2012 for applications that access databases. Some functionality is available only in Visual Studio 2012, but this won’t stop you from working through any of the examples in this book. You can double-click a solution file to open it in the appropriate development environment.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITYAND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+

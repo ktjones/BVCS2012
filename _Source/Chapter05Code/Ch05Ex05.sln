@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch05Ex05", "Ch05Ex05\Ch05Ex05.csproj", "{C4CAB85D-AF6E-4CCE-96D8-8D6F25D9F746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4CAB85D-AF6E-4CCE-96D8-8D6F25D9F746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CAB85D-AF6E-4CCE-96D8-8D6F25D9F746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CAB85D-AF6E-4CCE-96D8-8D6F25D9F746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CAB85D-AF6E-4CCE-96D8-8D6F25D9F746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

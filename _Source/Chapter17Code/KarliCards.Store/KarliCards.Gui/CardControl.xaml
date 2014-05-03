@@ -1,0 +1,170 @@
+﻿<UserControl x:Class="KarliCards_Gui.CardControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:src="using:KarliCards_Gui"
+             mc:Ignorable="d" 
+             Height="154" Width="100" x:Name="UserControl">
+  <UserControl.Resources>
+    <src:RankNameConverter x:Key="rankConverter"/>
+  </UserControl.Resources>
+  <Grid>
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup x:Name="CommonStates">
+        <VisualState x:Name="Heart">
+          <Storyboard>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopRightImage"
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Hearts.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BottomLeftImage" 
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Hearts.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SuitLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Red" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Red" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabelInverted"
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Red" />
+            </ObjectAnimationUsingKeyFrames>
+          </Storyboard>
+        </VisualState>
+        <VisualState x:Name="Diamond">
+          <Storyboard>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopRightImage"
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Diamonds.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BottomLeftImage" 
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Diamonds.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SuitLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Red" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Red" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabelInverted"
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Red" />
+            </ObjectAnimationUsingKeyFrames>
+          </Storyboard>
+        </VisualState>
+        <VisualState x:Name="Spade">
+          <Storyboard>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopRightImage"
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Spades.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BottomLeftImage" 
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Spades.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SuitLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Black" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Black" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabelInverted"
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Black" />
+            </ObjectAnimationUsingKeyFrames>
+          </Storyboard>
+        </VisualState>
+        <VisualState x:Name="Club">
+          <Storyboard>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopRightImage"
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Clubs.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BottomLeftImage" 
+                 Storyboard.TargetProperty="Source" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Assets/Clubs.png" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SuitLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Black" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabel" 
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Black" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RankLabelInverted"
+                 Storyboard.TargetProperty="Foreground" Duration="0">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="Black" />
+            </ObjectAnimationUsingKeyFrames>
+          </Storyboard>
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+    <Rectangle Stroke="{x:Null}" RadiusX="12.5" RadiusY="12.5">
+      <Rectangle.Fill>
+        <LinearGradientBrush EndPoint="0.47,-0.167" StartPoint="0.86,0.92">
+          <GradientStop Color="#FFD1C78F" Offset="0"/>
+          <GradientStop Color="#FFFFFFFF" Offset="1"/>
+        </LinearGradientBrush>
+      </Rectangle.Fill>
+    </Rectangle>
+    <Path Fill="#FFFFFFFF" Stretch="Fill" Stroke="{x:Null}"
+      Margin="0,0,35.218,-0.077" Data="F1 M110.5,51 L145.16457,51 C116.5986,
+        76.731148 115.63518,132.69684 121.63533,149.34013 133.45299,
+        182.12018 152.15821,195.69803 161.79765,200.07669 L110.5,200 C103.59644,
+        200 98,194.40356 98,187.5 L98,63.5 C98,56.596439 103.59644,51 110.5,51 z">
+    </Path>
+    <Rectangle Stroke="LightGray" RadiusX="12.5" RadiusY="12.5">
+      <Rectangle.Fill>
+        <SolidColorBrush Color="Transparent" />
+      </Rectangle.Fill>
+    </Rectangle>
+
+    <TextBlock x:Name="SuitLabel"
+      Text="{Binding Path=Suit, ElementName=UserControl}"
+      HorizontalAlignment="Center" VerticalAlignment="Center"
+      Margin="8,51,8,60" />
+    <TextBlock x:Name="RankLabel"
+      Text="{Binding Path=Rank, ElementName=UserControl, Converter={StaticResource ResourceKey=rankConverter}}"
+      HorizontalAlignment="Left" VerticalAlignment="Top"
+      Margin="8,8,0,0" />
+    <TextBlock x:Name="RankLabelInverted" 
+      Text="{Binding Path=Rank, ElementName=UserControl, Converter={StaticResource ResourceKey=rankConverter}}"
+      HorizontalAlignment="Right" VerticalAlignment="Bottom"
+      Margin="0,0,8,8" RenderTransformOrigin="0.5,0.5">
+      <TextBlock.RenderTransform>
+        <RotateTransform Angle="180"/>
+      </TextBlock.RenderTransform>
+    </TextBlock>
+    <Image Name="TopRightImage" 
+       
+       Margin="12,12,8,0" 
+       HorizontalAlignment="Right" 
+       VerticalAlignment="Top" 
+       Width="18.4" 
+       Height="18.4" 
+       Stretch="UniformToFill" />
+    <Image Name="BottomLeftImage" 
+           Margin="12,0,8,12" 
+           HorizontalAlignment="Left" 
+           VerticalAlignment="Bottom" 
+           Width="18.4" 
+           Height="18.4" 
+           Stretch="UniformToFill" 
+           RenderTransformOrigin="0.5,0.5">
+      <Image.RenderTransform>
+        <RotateTransform Angle="180" />
+      </Image.RenderTransform>
+    </Image>
+  </Grid>
+</UserControl>
