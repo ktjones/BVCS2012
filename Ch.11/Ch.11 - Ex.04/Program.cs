@@ -31,6 +31,10 @@ namespace Ch._11___Ex._04
 
             }
 
+            char x = 'a';
+
+            Console.WriteLine(x);
+
             Console.ReadKey();
         
         }
